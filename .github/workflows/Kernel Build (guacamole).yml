@@ -8,11 +8,11 @@ on:
         required: false
       KERNEL_TREE:
         description: 'Kernel Tree'
-        default: 'https://github.com/yaap/kernel_oneplus_sm8150'
+        default: 'https://github.com/DerpFest-Devices/kernel_oneplus_sm8150'
         required: true
       KERNEL_TREE_BRANCH:
         description: 'Kernel Tree Branch'
-        default: 'fourteen'
+        default: '14'
         required: true
       CODENAME:
         description: 'Phone Codename'

@@ -8,7 +8,7 @@ on:
         required: false
       KERNEL_TREE:
         description: 'Kernel Tree'
-        default: 'https://github.com/Whitefx274/kernel_oneplus_sm8150'
+        default: 'https://github.com/Whitefx274/android_kernel_oneplus_sm8150'
         required: true
       KERNEL_TREE_BRANCH:
         description: 'Kernel Tree Branch'
@@ -16,7 +16,7 @@ on:
         required: true
       CODENAME:
         description: 'Phone Codename'
-        default: 'guacamole'
+        default: 'sm8150-perf'
         required: true
       ANYKERNEL_URL:
         description: 'AnyKernel Url (leave blank if you dont want AnyKernel)'
